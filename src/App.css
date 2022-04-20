@@ -1,0 +1,23 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+.activeFilter {
+  background-color: cadetblue;
+}
+.isDoneTask {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.errorInput {
+  outline: none;
+  border: 2px solid red;
+}
+.errorMessage {
+  color: red;
+  font-weight: bolder;
+}
